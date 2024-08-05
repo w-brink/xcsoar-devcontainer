@@ -14,5 +14,7 @@
 	// "postCreateCommand": "uname -a",
 
 	// Comment out to connect as root instead. More info: https://aka.ms/vscode-remote/containers/non-root.
-	"remoteUser": "vscode"
+	"remoteUser": "vscode",
+	// post processing
+	"onCreateCommand": ".devcontainer/onCreate.sh"
 }
